@@ -1,0 +1,90 @@
+body {
+  background-color: black;
+  color: rgb(255, 255, 255);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  overflow-x: hidden;
+  min-height: 100vh;
+}
+hr {
+  border: 1px solid black;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+img {
+  max-height: 380px;
+}
+
+.navbar {
+  width: 100vw;
+}
+.container-fluid {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.carousel img {
+  max-height: 700px;
+  object-fit: cover;
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.226);
+  border-radius: 20px;
+  border-bottom-left-radius: none;
+  border-bottom-right-radius: none;
+  width: fit-content;
+  padding: 15px;
+  margin: auto;
+}
+
+.carousel-caption h1 {
+  font-weight: bold;
+  font-size: 45px;
+}
+
+.wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.wrapper-footer > h1 {
+  padding: 10px;
+}
+.card,
+.card-body,
+.card img {
+  border: none;
+  border-radius: 0;
+}
+
+.card-title {
+  font-size: 27px;
+  font-weight: bold;
+  text-align: center;
+}
+.card-text {
+  text-align: justify;
+}
+
+.p-filmes {
+  width: 70%;
+  margin: auto;
+  text-align: justify;
+}
+
+.filme-span {
+  display: block;
+  margin: auto;
+  text-align: center;
+}

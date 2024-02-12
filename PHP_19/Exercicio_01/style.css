@@ -1,0 +1,72 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  background-color: grey;
+  width: 70%;
+  height: 300px;
+  border-radius: 15px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input,
+button {
+  width: 150px;
+  height: 30px;
+  font-size: 15px;
+  text-align: center;
+  color: black;
+}
+input {
+  width: 250px;
+}
+
+button {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+  margin-top: 40px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  padding: 20px;
+}
+
+.icone {
+  width: 200px;
+  height: 100%;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+td,
+th {
+  border: 2px solid gold;
+  text-align: center;
+}
+
+th {
+  width: 200px;
+}
