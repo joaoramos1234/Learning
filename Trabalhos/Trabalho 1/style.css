@@ -1,0 +1,138 @@
+* {
+  font-weight: bold;
+}
+body {
+  background-color: rgb(43, 172, 231);
+  font-family: "Courier New", Courier, monospace;
+}
+h1 {
+  color: rgb(27, 218, 218);
+}
+form,
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.user {
+  border-top-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  padding: 25px 70px;
+}
+.visitante {
+  border-radius: 25%;
+  padding: 25px 50px;
+}
+.user,
+.visitante,
+.content-wrapper {
+  margin-top: 100px;
+  border: 1px solid #fff;
+  background-color: #fff;
+}
+input[type="text"],
+input[type="password"] {
+  text-align: center;
+  color: #000;
+  border: none;
+  border-bottom: 1px solid black;
+  width: 300px;
+  font-size: 20px;
+}
+input[type="text"]:focus,
+input[type="password"]:focus {
+  border: none !important;
+  outline: none !important;
+  border-bottom: 1px solid black !important;
+}
+input[type="submit"] {
+  margin-top: 2rem;
+  background-color: rgb(27, 218, 218);
+  color: white;
+  box-shadow: none;
+  border: none;
+  width: fit-content;
+  height: fit-content;
+  font-size: 25px;
+  padding: 5px;
+}
+
+.content-wrapper {
+  text-align: center;
+  border-radius: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-wrapper p {
+  width: 70%;
+  color: #039cff;
+}
+.verde {
+  color: #3bb900;
+}
+.vermelho {
+  color: #ff0000;
+}
+
+.content-wrapper table {
+  border-radius: 25px;
+  border-collapse: collapse;
+  margin-bottom: 50px;
+  font-family: Arial, Helvetica, sans-serif !important;
+}
+.td-special-1 {
+  border-bottom-left-radius: 5px;
+}
+.td-special-2 {
+  border-bottom-right-radius: 5px;
+}
+
+.td-1 {
+  border-right: 2px solid #00364f;
+  padding: 10px;
+  text-align: left;
+}
+
+td {
+  color: #005c78;
+  font-weight: bold;
+}
+
+th {
+  background-color: #005c78;
+  color: white;
+}
+
+.th-css-1 {
+  border-top-left-radius: 5px;
+}
+
+.th-css-2 {
+  border-top-right-radius: 5px;
+}
+
+.td-css-1 {
+  background-color: #e2e4e7;
+}
+
+.td-css-2 {
+  background-color: #cdced3;
+}
+
+.td-css-3 {
+  background-color: #b8b8be;
+}
+
+.voltar {
+  text-decoration: none;
+  background-color: rgb(27, 218, 218);
+  color: #fff;
+  padding: 5px;
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
