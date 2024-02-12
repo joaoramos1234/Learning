@@ -1,0 +1,106 @@
+*{
+    margin: 0px;
+}
+
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+.caixa{
+    width: 75%;
+    margin: 25px auto;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.15);
+    margin-bottom: 30px;
+    padding: 25px;
+}
+
+.caixa h2{
+    margin: 0px;
+}
+
+table, th, td{
+    border: 3px dotted white;
+    border-collapse: collapse;
+    font-size: 18px;
+}
+
+table{
+    width: 100%;
+    word-break: break-all;
+}
+
+th{
+    text-transform: uppercase;
+}
+
+th, td{
+    padding: 10px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+}
+
+tr{
+    transition-duration: 0.5s;
+}
+
+th:hover, td:hover{
+    background-color: rgba(255, 0, 0, 0.75);
+}
+
+tr:hover{
+    background-color: rgba(255, 255, 0, 0.50);
+}
+
+pre{
+    text-align: left;
+}
+
+button{
+    border: 2px solid white;
+    background-color: rgba(255, 255, 255, 0.20);
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+button.active{
+    background-color: red;
+}
+
+button:hover{
+    background-color: rgba(255, 0, 0, 0.40);
+}
+
+button:disabled{
+    border-color: rgb(83, 83, 83);
+    color: rgb(83, 83, 83);
+}
+
+nav{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: center;
+}
+
+nav > a{
+    padding: 10px 15px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    /* border: 1px solid green; */
+    text-transform: uppercase;
+    font-weight: bold;
+    background-color: rgba(255, 255, 255, 0.25);
+    transition-duration: 0.5s;
+}
+
+nav > a:hover{
+    background-color: rgba(255, 255, 255, 0.75);
+    color: yellow;
+}
