@@ -1,0 +1,26 @@
+body {
+  width: 100%;
+}
+
+form {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+input {
+  width: 175px;
+  left: 50%;
+  transform: translate(50%);
+}
+
+#sobre_css {
+  position: relative;
+  left: -10%;
+}
+
+#submit {
+  width: 50px;
+  position: relative;
+  left: 24%;
+}

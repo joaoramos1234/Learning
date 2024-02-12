@@ -1,0 +1,65 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.div_css {
+  background-color: grey;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 60vw;
+  height: 100px;
+}
+
+input {
+  text-align: center;
+  width: 100px;
+}
+
+#input_css {
+  width: 120px;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+#div2 {
+  margin-top: 50px;
+  width: 60vw;
+  height: 200px;
+  background-image: url("circulo.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 5;
+}
+
+#raio_css,
+#circ_css {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: red;
+  position: absolute;
+  z-index: 10;
+}
+
+#circ_css {
+  right: 22%;
+  bottom: 50.5%;
+}
+
+#raio_css {
+  left: 40%;
+  bottom: 52%;
+}

@@ -1,0 +1,53 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  color: gold;
+}
+body,
+main,
+form,
+.div2_wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+button {
+  display: block;
+}
+button a {
+  text-decoration: none;
+  color: black;
+}
+main {
+  width: 70%;
+}
+h1 {
+  font-size: 50px;
+  margin: 15px 0;
+  padding: 0;
+}
+input {
+  text-align: center;
+}
+input,
+.div2_wrapper,
+button {
+  font-size: 25px;
+  margin: 15px auto;
+}
+#reset_css {
+  margin: 30px auto;
+}
+
+.form-wrapper {
+  background-color: gray;
+  border-radius: 15px;
+  width: 80%;
+}
+
+.div2_wrapper {
+  text-align: center;
+}

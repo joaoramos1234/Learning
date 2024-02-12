@@ -1,0 +1,32 @@
+.card-body > h3 {
+  transform: translate(-50%);
+}
+
+main {
+  display: grid;
+  place-items: center;
+}
+.container {
+  background-color: rgb(243, 243, 184);
+  padding-right: 0 !important;
+}
+.row {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+.card {
+  width: 300px !important;
+  height: 590px !important;
+  margin: 0 !important;
+  padding-right: 0 !important;
+  padding-left: 10px;
+  border-radius: 0 !important;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.card > img {
+  height: 350px;
+  border-radius: 0 !important;
+}
